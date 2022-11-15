@@ -7,29 +7,30 @@ body {
   height: 100%;
 }
 
-.box {
-  background-color: #f66;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: azure;
-  font-size: 3em;
+
+.box{
+    /* background-color: #11f; */
+    /* display: flex; */
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
 }
 
+
 section {
-  height: 100%;
-  background-color: #f6f;
-  display: grid;
-  /* gap: 5px; */
-  /* row-gap: 20px; */
-  column-gap: 1px;
-  /* grid-template-columns: 33% 33% 33%; */
-  /* grid-template-columns: repeat(3,200px); */
-  /* grid-template-rows: 100px 300px; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* grid-template-rows: 100px 1fr 100px; */
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 100px 100px;
-  /* grid-auto-flow: column; */
-  /* grid-auto-rows: 100px; */
+    background-color: rgb(238, 17, 201);
+display: grid;
+height: 100%;
+gap: 5px;
+grid-template-columns: repeat(3, 200px);
+grid-template-rows: repeat(3,200px);
+/* justify-content: space-between;
+align-content: space-between; */
+place-content: center;
+place-items: center;
+/* grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center; */
 }
