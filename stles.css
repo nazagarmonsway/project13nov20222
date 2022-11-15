@@ -23,14 +23,26 @@ section {
 display: grid;
 height: 100%;
 gap: 5px;
-grid-template-columns: repeat(3, 200px);
-grid-template-rows: repeat(3,200px);
+/* grid-template-columns: repeat(3, 200px);
+grid-template-rows: repeat(3,200px); */
 /* justify-content: space-between;
 align-content: space-between; */
-place-content: center;
-place-items: center;
-/* grid-template-rows: 1fr 1fr 1fr;
+/* place-content: center;
+place-items: center; */
+/* grid-template-rows: 1fr 1fr 1fr; */
 grid-template-columns: 1fr 1fr 1fr;
-justify-items: center;
+/* justify-items: center;
 align-items: center; */
+}
+
+.box-3{
+    color: rgb(41, 133, 186);
+    justify-self: end;
+    align-self: end;
+}
+
+.box-6{
+    border: 2px solid;
+    justify-self: center;
+    align-self: center;
 }
